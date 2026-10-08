@@ -81,6 +81,7 @@ header nav a:hover {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+}
 
 footer {
     background-color: #333;
@@ -96,4 +97,20 @@ footer h3 {
 footer p {
     font-size: 14px;
 }
+
+/* Sección de beneficios */
+.benefits .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefits .card {
+    flex: 1;
+    min-width: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    text-align: center;
 }
