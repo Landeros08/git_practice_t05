@@ -32,3 +32,14 @@ section {
     padding: 40px;
     background-color: #fff;
 }
+
+/* Botones */
+button,
+.btn {
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
