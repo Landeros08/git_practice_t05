@@ -1,32 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #eef2f7;
+    color: #1f2937;
     line-height: 1.6;
 }
 
 h1 {
     font-size: 2.5rem;
-    color: #222;
+    color: #1e3a8a;
 }
 
 h2 {
     font-size: 1.8rem;
-    color: #444;
+    color: #1d4ed8;
 }
 
 h3 {
     font-size: 1.3rem;
-    color: #555;
+    color: #334155;
 }
 
 main,
 section {
     max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 40px auto;
+    padding: 40px;
     background-color: #fff;
 }
 header {
@@ -113,4 +113,29 @@ footer p {
     border-radius: 8px;
     background-color: #fafafa;
     text-align: center;
+}
+
+/* Botones */
+button,
+.btn,
+.boton {
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Colores del header */
+header {
+    background-color: #1e3a8a;
+    color: #fff;
+}
+
+/* Tipografía de títulos */
+h1,
+h2,
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
 }
