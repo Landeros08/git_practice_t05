@@ -32,3 +32,18 @@ section {
     padding: 20px;
     background-color: #fff;
 }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
