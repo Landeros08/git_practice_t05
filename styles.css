@@ -32,3 +32,25 @@ section {
     padding: 20px;
     background-color: #fff;
 }
+
+.hero {
+    background-color: lightblue;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.boton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
